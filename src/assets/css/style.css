@@ -1,0 +1,12 @@
+/*
+* @Author: iMocco
+* @Date:   2019-01-30 19:24:15
+* @Last Modified by:   iMocco
+* @Last Modified time: 2019-01-30 19:24:47
+*/
+html{
+  cursor: url(../images/pointer.png),auto;
+}
+a, button, label {
+  cursor: url(../images/pointer-hover.png),pointer;
+}
