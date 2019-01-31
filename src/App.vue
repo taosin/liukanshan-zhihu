@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <ul>
+        <li v-for="(nav, index) in navs" :key="index">
+          <router-link :to="nav.url">{{ nav.title }}</router-link>
+        </li>
+      </ul>
     </div>
     <router-view/>
   </div>
@@ -10,6 +13,17 @@
 <script>
 import '@/assets/css/style.css';
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return {
+      navs: [
+      { title: 'Home', url: '/' },
+      { title: '动漫', url: '/about' },
+      { title: '下载', url: '/' },
+      { title: '商店', url: '/' },
+      { title: '历史', url: '/' }
+      ]
+    }
+  }
 }
 </script>
