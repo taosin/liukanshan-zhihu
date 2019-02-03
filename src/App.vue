@@ -10,7 +10,9 @@
       </ul>
     </nav>
     <div class="container">
-      <router-view/>
+      <div class="home-page">
+        <router-view></router-view>
+      </div>
     </div>
   </div>
 </template>

@@ -2,7 +2,7 @@
 * @Author: iMocco
 * @Date:   2019-01-30 19:24:15
 * @Last Modified by:   iMocco
-* @Last Modified time: 2019-01-31 18:17:15
+* @Last Modified time: 2019-02-03 11:00:33
 */
 html,body{
 	overflow: hidden;
@@ -103,4 +103,16 @@ a.nav-link.home {
 	background: url(../images/bg-home.png) no-repeat center;
 	background-size: cover;
 	height: 100%;
+}
+.main-comic {
+	background: #fff;
+	height: 35vw;
+	min-height: initial;
+	max-height: initial;
+}
+
+.main-comic {
+    height: 100%;
+    background: url(https://static.zhihu.com/liukanshan/images/comics/bg-89c9bdc3.jpg) bottom;
+    background-size: contain;
 }

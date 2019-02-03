@@ -1,14 +1,12 @@
 <template>
-  <div class="home-page">
-  	<main class="main-corridor">
-  	</main>
-  </div>
+	<main class="main-corridor">
+	</main>
 </template>
 
 <script>
 // @ is an alias to /src
 import '@/assets/css/style.css';
 export default {
-  name: 'home',
+	name: 'home',
 }
 </script>

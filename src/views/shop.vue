@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
-    <h1>商店</h1>
+  <div class="main-comic">
+  	<div class="main-inner">
+  	</div>
   </div>
 </template>
