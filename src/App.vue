@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-cloak>
     <nav class="page-navbar receptacle">
       <ul>
         <li v-for="(nav, index) in navs" :key="index">
@@ -11,7 +11,9 @@
     </nav>
     <div class="container">
       <div class="home-page">
-        <router-view></router-view>
+        <keep-alive>
+          <router-view></router-view>
+        </keep-alive>
       </div>
     </div>
   </div>
@@ -24,10 +26,10 @@ export default {
     return {
       navs: [
       { title: 'Home', url: '/', class: 'home' },
-      { title: '动漫', url: '/about', class: 'comics' },
-      { title: '下载', url: '/', class: 'downloads' },
-      { title: '商店', url: '/', class: 'shop' },
-      { title: '历史', url: '/', class: 'history' }
+      { title: '动漫', url: '/comics', class: 'comics' },
+      { title: '下载', url: '/downloads', class: 'downloads' },
+      { title: '商店', url: '/shop', class: 'shop' },
+      { title: '历史', url: '/history', class: 'history' }
       ]
     }
   }

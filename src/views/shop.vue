@@ -1,6 +1,4 @@
 <template>
-  <div class="main-comic">
-  	<div class="main-inner">
-  	</div>
-  </div>
+	<div class="main-store">
+	</div>
 </template>

@@ -1,3 +1,4 @@
 <template>
-	动漫
+	<div class="main-comics">
+	</div>
 </template>
