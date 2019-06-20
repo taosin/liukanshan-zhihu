@@ -8,7 +8,7 @@
 							<img src="https://static.zhihu.com/liukanshan/images/downloads/icon-ime-b2ebf8b0.svg" alt="">
 						</template>
 						<template v-else>
-							<img src="../assets/svg/icon-pc.svg">
+							<img src="../assets/svg/icon-pc.svg" class="">
 							<img :src="item.img" class="screw-wallpaper">
 						</template>
 						<span class="button-paint">{{item.text}}</span>
